@@ -8,11 +8,11 @@ import numpy as np
 import joblib
 
 # PostgreSQL bağlantısı
-DB_USERNAME = "postgres"
-DB_PASSWORD = "123456"
+DB_USERNAME = "kullanıcı adınız"
+DB_PASSWORD = "sifreniz"
 DB_HOST = "localhost"
 DB_PORT = "5432"
-DB_NAME = "northwind"
+DB_NAME = "database adınız"
 
 DATABASE_URL = f"postgresql+psycopg2://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 engine = create_engine(DATABASE_URL)
