@@ -2,8 +2,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, Session
 
 # PostgreSQL bağlantı bilgileri
-DB_USERNAME = "postgres"  # Kullanıcı adını yaz
-DB_PASSWORD = "123456"  # PostgreSQL şifreni yaz
+DB_USERNAME = "kullanıcı adınız"  # Kullanıcı adını yaz
+DB_PASSWORD = "sifreniz"  # PostgreSQL şifreni yaz
 DB_HOST = "localhost"
 DB_PORT = "5432"
 DB_NAME = "northwind"
